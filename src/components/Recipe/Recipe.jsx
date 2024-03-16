@@ -1,5 +1,6 @@
 import Table from "../Table/Table";
 import "./Recipe.css";
+import CookingSummary from "../CookingSummary/CookingSummary";
 
 const Recipe = (recipe) => {
   // console.log(recipe);
@@ -15,10 +16,6 @@ const Recipe = (recipe) => {
   } = recipe.recipe;
 
   // console.log(recipe_id);
-
-  const handleAddCook = () => {
-    // console.log("Button Clicked");
-  };
 
   return (
     <div className="w-11/12 mb-4">
@@ -64,9 +61,6 @@ const Recipe = (recipe) => {
           <div className="mt-4">
             <button
               className="btn bg-[#0BE58A] rounded-3xl"
-              onClick={() => {
-                <Table handleAddCook={handleAddCook}></Table>;
-              }}
             >
               Want to Cook
             </button>

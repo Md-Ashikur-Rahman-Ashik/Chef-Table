@@ -1,4 +1,4 @@
-const Table = (handleAddCook) => {
+const Table = () => {
   return (
     <div>
       <table>
