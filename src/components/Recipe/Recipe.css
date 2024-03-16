@@ -1,0 +1,10 @@
+/* Fira Sans font from google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@200;300;400;500;600;700;800;900&display=swap');
+
+.font-firaSans{
+    font-family: "Fira Sans", sans-serif;
+}
+
+ul li{
+    list-style: disc;
+}

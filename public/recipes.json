@@ -1,0 +1,117 @@
+[
+  {
+    "recipe_id": 1,
+    "recipe_name": "Grilled Chicken Salad",
+    "short_description": "A refreshing salad with grilled chicken, perfect for a light meal.",
+    "ingredients": [
+      "300 g chicken breast",
+      "150 g mixed salad greens",
+      "1 avocado",
+      "50 g cherry tomatoes",
+      "30 g red onion",
+      "2 tbsp olive oil",
+      "1 tbsp balsamic vinegar",
+      "Salt and pepper to taste"
+    ],
+    "preparing_time": 20,
+    "calories": 320,
+    "recipe_image": "https://i.ibb.co/8sWvnxB/grilled-chicken-salad.jpg"
+  },
+  {
+    "recipe_id": 2,
+    "recipe_name": "Vegetable Stir-Fry",
+    "short_description": "A quick and healthy stir-fry loaded with colorful vegetables.",
+    "ingredients": [
+      "200 g broccoli",
+      "150 g bell peppers (mixed colors)",
+      "100 g carrots",
+      "100 g snow peas",
+      "150 g tofu",
+      "3 tbsp soy sauce",
+      "2 cloves garlic (minced)",
+      "1 tsp ginger (minced)",
+      "2 tbsp vegetable oil",
+      "Salt and pepper to taste"
+    ],
+    "preparing_time": 25,
+    "calories": 250,
+    "recipe_image": "https://i.ibb.co/DC3PR29/vegetable-stir-fry.jpg"
+  },
+  {
+    "recipe_id": 3,
+    "recipe_name": "Spaghetti Bolognese",
+    "short_description": "Classic Italian pasta dish with a rich tomato and meat sauce.",
+    "ingredients": [
+      "300 g spaghetti",
+      "250 g ground beef",
+      "1 onion (diced)",
+      "2 cloves garlic (minced)",
+      "400 g canned crushed tomatoes",
+      "2 tbsp tomato paste",
+      "1 tsp dried oregano",
+      "1 tsp dried basil",
+      "Salt and pepper to taste",
+      "Grated Parmesan cheese for serving"
+    ],
+    "preparing_time": 40,
+    "calories": 400,
+    "recipe_image": "https://i.ibb.co/8B2MMBz/spaghetti-bolognese.jpg"
+  },
+  {
+    "recipe_id": 4,
+    "recipe_name": "Quinoa Salad with Chickpeas",
+    "short_description": "A protein-packed salad with quinoa, chickpeas, and colorful vegetables.",
+    "ingredients": [
+      "200 g quinoa",
+      "400 g canned chickpeas (drained and rinsed)",
+      "150 g cucumber",
+      "100 g cherry tomatoes",
+      "50 g red onion",
+      "1/4 cup chopped fresh parsley",
+      "3 tbsp lemon juice",
+      "2 tbsp olive oil",
+      "Salt and pepper to taste"
+    ],
+    "preparing_time": 30,
+    "calories": 350,
+    "recipe_image": "https://i.ibb.co/P95Cdyf/quinoa-chickpea-salad.webp"
+  },
+  {
+    "recipe_id": 5,
+    "recipe_name": "Teriyaki Salmon",
+    "short_description": "Delicious salmon fillets glazed with homemade teriyaki sauce.",
+    "ingredients": [
+      "4 salmon fillets",
+      "1/4 cup soy sauce",
+      "2 tbsp honey",
+      "1 tbsp rice vinegar",
+      "1 clove garlic (minced)",
+      "1 tsp grated ginger",
+      "2 tbsp sesame seeds",
+      "2 green onions (sliced)",
+      "Cooking spray"
+    ],
+    "preparing_time": 25,
+    "calories": 300,
+    "recipe_image": "https://i.ibb.co/X5TnSk3/teriyaki-salmon.jpg"
+  },
+  {
+    "recipe_id": 6,
+    "recipe_name": "Mushroom Risotto",
+    "short_description": "Creamy and comforting risotto with flavorful mushrooms.",
+    "ingredients": [
+      "300 g Arborio rice",
+      "200 g mushrooms (sliced)",
+      "1 onion (finely chopped)",
+      "2 cloves garlic (minced)",
+      "1/2 cup dry white wine",
+      "4 cups vegetable broth",
+      "1/4 cup grated Parmesan cheese",
+      "2 tbsp butter",
+      "Salt and pepper to taste"
+    ],
+    "preparing_time": 35,
+    "calories": 380,
+    "recipe_image": "https://i.ibb.co/n0p6ZrL/mushroom-risotto.jpg"
+  }
+]
