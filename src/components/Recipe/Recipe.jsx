@@ -11,14 +11,14 @@ const Recipe = (recipe) => {
     ingredients,
     recipe_id,
     preparing_time,
-    calories
+    calories,
   } = recipe.recipe;
 
   // console.log(recipe_id);
 
   const handleAddCook = () => {
-    <Table></Table>
-  }
+    // console.log("Button Clicked");
+  };
 
   return (
     <div className="w-11/12 mb-4">
@@ -51,14 +51,25 @@ const Recipe = (recipe) => {
               <p>{preparing_time}</p>
             </div>
             <div className="flex gap-2 items-center">
-              <img className="w-4" src="../../../public/cookingFire.svg" alt="" />
+              <img
+                className="w-4"
+                src="../../../public/cookingFire.svg"
+                alt=""
+              />
               <div className="flex gap-2">
-              {calories} <p>calories</p>
+                {calories} <p>calories</p>
               </div>
             </div>
           </div>
           <div className="mt-4">
-            <button className="btn bg-[#0BE58A] rounded-3xl" onClick={handleAddCook}>Want to Cook</button>
+            <button
+              className="btn bg-[#0BE58A] rounded-3xl"
+              onClick={() => {
+                <Table handleAddCook={handleAddCook}></Table>;
+              }}
+            >
+              Want to Cook
+            </button>
           </div>
         </div>
       </div>
