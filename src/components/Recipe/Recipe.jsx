@@ -1,3 +1,4 @@
+import Table from "../Table/Table";
 import "./Recipe.css";
 
 const Recipe = (recipe) => {
@@ -16,7 +17,7 @@ const Recipe = (recipe) => {
   // console.log(recipe_id);
 
   const handleAddCook = () => {
-    console.log(handleAddCook);
+    <Table></Table>
   }
 
   return (
@@ -57,7 +58,7 @@ const Recipe = (recipe) => {
             </div>
           </div>
           <div className="mt-4">
-            <button className="btn bg-[#0BE58A] rounded-3xl" onClick={() => handleAddCook}>Want to Cook</button>
+            <button className="btn bg-[#0BE58A] rounded-3xl" onClick={handleAddCook}>Want to Cook</button>
           </div>
         </div>
       </div>
