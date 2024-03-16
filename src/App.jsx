@@ -15,8 +15,8 @@ function App() {
       <Banner></Banner>
       <RecipeDescription></RecipeDescription>
       <div className='flex mx-32 justify-between'>
-        <RecipeCard className=""></RecipeCard>
-        <CookingSummary className=""></CookingSummary>
+        <RecipeCard></RecipeCard>
+        <CookingSummary></CookingSummary>
       </div>
     </>
   )

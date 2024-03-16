@@ -1,7 +1,7 @@
 import "./Recipe.css";
 
 const Recipe = (recipe) => {
-  // console.log(recipe.recipe);
+  // console.log(recipe);
 
   const {
     recipe_image,
@@ -13,16 +13,20 @@ const Recipe = (recipe) => {
     calories
   } = recipe.recipe;
 
-  // console.log(recipe_image);
+  // console.log(recipe_id);
+
+  const handleAddCook = () => {
+    console.log(handleAddCook);
+  }
 
   return (
-    <div className="w-11/12">
+    <div className="w-11/12 mb-4">
       <div className=" border rounded-2xl p-4">
         <figure className="w-full">
           <img
             className="w-full h-40 rounded-2xl pb-4"
             src={recipe_image}
-            alt="Shoes"
+            alt={`A picture of ${recipe_name}`}
           />
         </figure>
         <div className="w-full">
@@ -36,11 +40,11 @@ const Recipe = (recipe) => {
             </p>
             <ul className="pl-4 pt-2">
               {ingredients.map((ingredient) => (
-                <li key={recipe_id}>{ingredient}</li>
+                <li key={ingredient}>{ingredient}</li>
               ))}
             </ul>
           </div>
-          <div className="flex mt-4 gap-52">
+          <div className="flex mt-4 justify-between">
             <div className="flex gap-2 items-center">
               <img src="../../../public/clock-regular.svg" alt="" />
               <p>{preparing_time}</p>
@@ -53,7 +57,7 @@ const Recipe = (recipe) => {
             </div>
           </div>
           <div className="mt-4">
-            <button className="btn bg-[#0BE58A] rounded-3xl">Want to Cook</button>
+            <button className="btn bg-[#0BE58A] rounded-3xl" onClick={() => handleAddCook}>Want to Cook</button>
           </div>
         </div>
       </div>

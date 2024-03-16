@@ -14,7 +14,7 @@ const RecipeCard = () => {
   return (
     <div className="grid grid-cols-2 w-full">
       {
-        recipes.map(recipe => <Recipe key={recipe.recipe_id} recipe={recipe}></Recipe>)
+        recipes.map(recipe => <Recipe key={recipe["calories"]} recipe={recipe}></Recipe>)
       }
     </div>
   );
