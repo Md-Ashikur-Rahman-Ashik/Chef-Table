@@ -1,11 +1,4 @@
-import Table from "../Table/Table";
-import Recipe from "../Recipe/Recipe";
-
 const CookingSummary = () => {
-  const handleAddCook = () => {
-    <Table></Table>
-  }
-
 
   return (
     <div className="w-1/2 border rounded-2xl pt-6 px-6">

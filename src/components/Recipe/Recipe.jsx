@@ -1,8 +1,6 @@
-import Table from "../Table/Table";
 import "./Recipe.css";
-import CookingSummary from "../CookingSummary/CookingSummary";
 
-const Recipe = (recipe) => {
+const Recipe = (recipe, {handleAddCook}) => {
   // console.log(recipe);
 
   const {
@@ -60,6 +58,7 @@ const Recipe = (recipe) => {
           </div>
           <div className="mt-4">
             <button
+              onClick={handleAddCook}
               className="btn bg-[#0BE58A] rounded-3xl"
             >
               Want to Cook
